@@ -1,0 +1,20 @@
+table {
+  border: 1px solid #ccc; /* граница всей таблицы */
+  border-collapse: collapse;
+  width: 220px;
+}
+
+tr {
+  border: 1px solid #ccc; /* границы между строками */
+  
+}
+
+td, th {
+  border: 1px solid #ccc; /* границы между столбцами */
+  height: 30px;
+}
+
+.firstColumn {
+  width: 20px;
+  padding-left: 10px;
+}
