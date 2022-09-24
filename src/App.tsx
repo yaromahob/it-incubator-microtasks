@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Task5 from "./components/Task5(filter)/Task5";
+import Task6 from "./components/Task6(input)/Task6";
+// import Task5 from "./components/Task5(filter)/Task5";
 // import Task1 from "./components/Task1/Task1";
 // import Task2 from "./components/Task2/Task2";
 // import Task3 from "./components/Task3/Task3";
@@ -25,7 +26,8 @@ function App() {
       {/*<UniversalButton title={'First Universal Button'} callback={() => firstCallback("Hello I am firstCallback", 10)}/>*/}
       {/*<UniversalButton title={'Second Universal Button'}*/}
       {/*                 callback={() => secondCallback("Hello I am secondCallback", 20)}/>*/}
-      <Task5/>
+      {/*<Task5/>*/}
+      <Task6/>
     </>
   );
 }

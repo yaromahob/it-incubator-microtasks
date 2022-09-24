@@ -14,10 +14,10 @@ const ShowMoney = (props: TMoneyType) => {
   
   return (
     <div>
+      
       <ul>
         {props.money.map((obj: TCashType, index: number) => {
-          return (<li key={index}>
-            <span> {obj.banknotes}</span>
+          return (<li key={index}><span> {obj.banknotes}</span>
             <span> {obj.value}</span>
             <span> {obj.number}</span>
           </li>)
